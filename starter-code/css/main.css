@@ -1,8 +1,155 @@
-/*
-Colors:
+html {
+  font-size: 10px;
+  font-family: Geneva, Verdada, sans-serif;
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+nav {
+  background: #FFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+}
 
-*/
+nav div img {
+  width: 20rem;
+}
+
+nav div ul {
+  display: flex;
+}
+
+nav div ul li {
+  margin-left: 4rem;
+  font-size: 2rem;
+}
+
+#first-section {
+  background-image: url('../images/landing.jpg');
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: #FFF;
+  font-size: 8rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
+#title-paragraph-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title-paragraph {
+  color: #FFF;
+  font-size: 3rem;
+  padding-bottom: 1rem;
+}
+
+#second-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 4rem 4rem 10rem 4rem;
+}
+
+#second-section div h3 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  border-bottom: 4px solid #00B172;
+  padding-bottom: 0.6rem;
+  margin-bottom: 10rem;
+}
+
+#three-elements-container {
+  display: flex;
+  width: 90vw;
+  justify-content: space-around;
+}
+
+.second-section-img {
+  height: 11rem;
+  margin-bottom: 2rem;
+}
+
+h4 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #00B172;
+  margin-bottom: 2rem;
+}
+
+.img-title-paragraph {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 2.3rem;
+  text-align: center;
+  width: 25vw;
+  line-height: 3.5rem;
+  color: #1A1A1A;
+}
+
+#third-section {
+  background: #00B172;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 5rem;
+}
+
+#third-section-title {
+  font-size: 3.5rem;
+  color: #FFF;
+  border-bottom: 3px solid #FFF;
+  width: 35vw;
+  padding-bottom: 1rem;
+  margin-bottom: 4rem;
+  font-weight: bold;
+}
+
+#bottom-left {
+  width: 45vw;
+}
+
+h5 {
+  font-size: 3rem;
+  color: #FFF;
+  font-weight: bold;
+  margin-bottom: 3rem;
+}
+
+#last-text {
+  padding-right: 13rem;
+}
+
+.bottom-paragraph {
+  font-size: 2.2rem;
+  color: #FFF;
+  margin-bottom: 3rem;
+  line-height: 3.5rem;
+}
+
+#two-bottom-elements {
+  display: flex;
+  justify-content: space-between;
+  width: 45vw;
+}
+
+#middle-img {
+  width: 15rem;
+  margin-top: 20vh;
+}
+
+#right-img {
+  width: 30rem;
+}
